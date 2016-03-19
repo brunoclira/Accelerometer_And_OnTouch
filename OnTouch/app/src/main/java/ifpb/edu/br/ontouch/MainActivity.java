@@ -2,7 +2,6 @@ package ifpb.edu.br.ontouch;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
@@ -11,7 +10,6 @@ import android.widget.TextView;
 public class MainActivity extends Activity implements OnTouchListener {
 
     TextView touchpad, tvX , tvY;
-    GestureDetector gd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
