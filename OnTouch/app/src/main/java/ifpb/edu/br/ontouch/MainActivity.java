@@ -25,7 +25,6 @@ public class MainActivity extends Activity implements OnTouchListener {
        touchpad = (TextView)findViewById(R.id.touchpad);
        tvX = (TextView)findViewById(R.id.tvX);
        tvY= (TextView)findViewById(R.id.tvY);
-       //gd = new GestureDetector(this);
        touchpad.setOnTouchListener(this);
 
     }
